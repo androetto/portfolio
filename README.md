@@ -20,7 +20,7 @@ Portfolio personal de Franco Androetto, Software Engineer freelance especializad
 
 ## 📱 Proyectos Destacados
 
-El portfolio incluye 8 proyectos principales que demuestran experiencia en diferentes sectores:
+El portfolio incluye 9 proyectos principales que demuestran experiencia en diferentes sectores:
 
 1. **POS Cloud - ERP** - Sistema empresarial completo
 2. **Sport Style** - App móvil de entrenamiento
@@ -30,6 +30,7 @@ El portfolio incluye 8 proyectos principales que demuestran experiencia en difer
 6. **Chep Skycan** - Inventario automatizado con drones e IA
 7. **Watchman** - Seguridad comunitaria con monitoreo
 8. **Librología** - Red social de libros (5K+ descargas)
+9. **Schedule Interpreter** - Migración legacy de Perl a JavaScript
 
 ## 🛠️ Instalación Local
 
