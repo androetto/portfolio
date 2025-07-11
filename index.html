@@ -3,394 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Franco Androetto - Desarrollador Freelance</title>
-    <meta name="description" content="Desarrollador Full Stack Freelance especializado en crear aplicaciones web modernas y escalables">
-    <meta name="keywords" content="freelance, desarrollador, web, full stack, react, node.js">
-    <meta name="author" content="Franco Androetto">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230a192f'/><text x='50' y='70' font-family='Inter, sans-serif' font-size='60' font-weight='700' text-anchor='middle' fill='%2364ffda'>F</text></svg>">
-    
+    <title>Franco Androetto - Full Stack Developer</title>
+    <meta name="description" content="Desarrollador Full Stack con 8+ años de experiencia, especializado en Angular, Node.js y arquitecturas modernas">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Main Container -->
-    <div class="main-container">
-        <!-- Left Sidebar -->
-        <aside class="sidebar">
-            <div class="sidebar-content">
-                <div class="profile-section">
-                    <h1 class="profile-name">Franco Androetto</h1>
-                    <h2 class="profile-title">Software Engineer</h2>
-                    
-                    <div class="profile-description">
-                        <p>Creo aplicaciones web modernas, eficientes y escalables. Especializado en transformar ideas en soluciones digitales de alta calidad.</p>
-                        <p>Mi enfoque se centra en entender las necesidades específicas de cada cliente y traducirlas en código limpio y eficiente.</p>
-                    </div>
+    <div class="container">
+        <!-- Header -->
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title" id="hero-name">Loading...</h1>
+                <p class="hero-subtitle" id="hero-title">Loading...</p>
+                <p class="hero-description" id="hero-description">
+                    Loading...
+                </p>
+            </div>
+            <div class="scroll-indicator">
+                <span>Mirá más abajo</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </header>
 
-                    <div class="profile-cta">
-                        <a href="https://wa.me/5493564677539" class="btn btn-primary" target="_blank">
-                            Contactar
-                        </a>
-                    </div>
-                </div>
-
-                <div class="sidebar-footer">
-                    <div class="social-links">
-                        <a href="https://github.com/androetto" target="_blank" aria-label="GitHub">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                            </svg>
-                        </a>
-                        <a href="https://linkedin.com/in/franco-androetto" target="_blank" aria-label="LinkedIn">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <p class="footer-text">© 2024 Franco Androetto</p>
+        <!-- Sobre Mí -->
+        <section id="about" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Sobre Mí</h2>
+                <div class="about-content" id="about-content">
+                    <!-- Content will be loaded dynamically -->
                 </div>
             </div>
-        </aside>
+        </section>
 
-        <!-- Right Projects Area -->
-        <main class="projects-area">
-            <div class="projects-header">
-                <h2 class="projects-title">Proyectos Destacados</h2>
-                <p class="projects-subtitle">Algunos de mis trabajos más recientes</p>
+        <!-- Experiencia -->
+        <section id="experience" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Experiencia</h2>
+                <div class="experience-list" id="experience-list">
+                    <!-- Content will be loaded dynamically -->
+                </div>
             </div>
+        </section>
 
-            <div class="projects-timeline">
-                <!-- Project 1 -->
-                <div class="timeline-item">
-                    <div class="timeline-date">
-                        <span class="date-range">2016 — 2021</span>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="project-header">
-                            <h3 class="project-title">POS Cloud - ERP</h3>
-                            <div class="project-links">
-                                <a href="https://github.com/androetto" target="_blank" aria-label="Ver código en GitHub">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                    </svg>
-                                </a>
-                                <a href="https://poscloud.com.ar" target="_blank" aria-label="Ver sitio web">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M18.364 5.636l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828zm-12.728 12.728l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828z"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <p class="project-description">
-                            Desarrollé desde cero una plataforma ERP modularizada empresarial que revoluciona la gestión de negocios. El sistema integra módulos completos de compras, ventas, stock, fondos y reportes inteligentes, permitiendo a las empresas administrar todas sus operaciones desde una sola plataforma. Implementé integraciones robustas con sistemas de facturación electrónica de múltiples países (Argentina, México, Colombia) y conectores nativos con plataformas e-commerce como Tienda Nube, WooCommerce, MercadoLibre y MercadoPago. La infraestructura incluye una nube propia con CI/CD automatizado, garantizando escalabilidad y disponibilidad 24/7 para empresas que requieren tomar decisiones basadas en datos reales y en tiempo real.
-                        </p>
-                        <ul class="project-tech">
-                            <li>Angular</li>
-                            <li>Node.js</li>
-                            <li>Express</li>
-                            <li>NestJS</li>
-                            <li>MongoDB</li>
-                            <li>AWS</li>
-                            <li>Google Cloud</li>
-                            <li>GitHub Actions</li>
-                        </ul>
-                    </div>
+        <!-- Educación -->
+        <section id="education" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Educación</h2>
+                <div class="education-list" id="education-list">
+                    <!-- Content will be loaded dynamically -->
                 </div>
-
-                <!-- Project 2 -->
-                <div class="timeline-item">
-                    <div class="timeline-date">
-                        <span class="date-range">2020 — 2021</span>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="project-header">
-                            <h3 class="project-title">Sport Style - App de Entrenamiento</h3>
-                            <div class="project-links">
-                                <a href="https://github.com/androetto" target="_blank" aria-label="Ver código en GitHub">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                    </svg>
-                                </a>
-                                <a href="https://play.google.com/store/apps/details?id=com.poscloud.sport_style&hl=es_419" target="_blank" aria-label="Ver en Google Play">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M18.364 5.636l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828zm-12.728 12.728l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828z"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <p class="project-description">
-                            Durante la pandemia, cuando los gimnasios cerraron y las personas no podían salir de casa, desarrollé una solución integral que revolucionó el entrenamiento domiciliario. Creé tanto la aplicación móvil como el backoffice administrativo completo para la gestión de gimnasios virtuales. La app permite a los usuarios planificar entrenamientos personalizados, acceder a una biblioteca de videos instructivos y utilizar un contador inteligente de entrenamientos para mantener rutinas estructuradas desde casa. El sistema ayudó a miles de personas a mantener su salud física y mental durante el confinamiento, conectando coaches con usuarios de manera segura y efectiva. La aplicación alcanzó más de 1K descargas en Google Play Store.
-                        </p>
-                        <ul class="project-tech">
-                            <li>Flutter</li>
-                            <li>Angular</li>
-                            <li>Node.js</li>
-                            <li>Express</li>
-                            <li>MongoDB</li>
-                        </ul>
-                    </div>
+                
+                <h3 class="courses-title">Cursos y Certificaciones</h3>
+                <div class="courses-list" id="courses-list">
+                    <!-- Content will be loaded dynamically -->
                 </div>
-
-                <!-- Project 3 -->
-                <div class="timeline-item">
-                    <div class="timeline-date">
-                        <span class="date-range">2021 — 2022</span>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="project-header">
-                            <h3 class="project-title">CMS - Diario Virtual</h3>
-                            <div class="project-links">
-                                <a href="https://github.com/androetto" target="_blank" aria-label="Ver código en GitHub">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.30.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                    </svg>
-                                </a>
-                                <a href="#" target="_blank" aria-label="Ver sitio web">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M18.364 5.636l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828zm-12.728 12.728l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828z"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <p class="project-description">
-                            Desarrollé un CMS completo para un diario digital moderno, creando tanto el backoffice para editores y administradores como el frontend optimizado para lectores. El sistema destaca por su arquitectura SEO-first, implementando meta tags dinámicos, URLs amigables, sitemap automático, y optimización para Core Web Vitals que resultó en un posicionamiento orgánico excepcional. La plataforma es completamente responsive con diseño mobile-first, cuenta con sistema de suscripciones premium, gestión de usuarios por roles, comentarios moderados, newsletter automático, y analytics integrado. Incluye funcionalidades avanzadas como programación de artículos, editor WYSIWYG con media library, categorización inteligente, búsqueda full-text, y sistema de cache optimizado para alto tráfico.
-                        </p>
-                        <ul class="project-tech">
-                            <li>Angular</li>
-                            <li>Node.js</li>
-                            <li>Express</li>
-                            <li>MongoDB</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="timeline-item">
-                    <div class="timeline-date">
-                        <span class="date-range">2023 — 2024</span>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="project-header">
-                            <h3 class="project-title">Blotter v2.0 - Cotizador de Cripto</h3>
-                            <div class="project-links">
-                                <a href="https://github.com/androetto" target="_blank" aria-label="Ver código en GitHub">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                    </svg>
-                                </a>
-                                <a href="#" target="_blank" aria-label="Ver aplicación web">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M18.364 5.636l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828zm-12.728 12.728l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828z"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <p class="project-description">
-                            Desarrollé una plataforma completa de gestión financiera que revoluciona las operaciones de trading y gestión de órdenes bursátiles. El sistema permite el manejo profesional de diferentes instrumentos financieros incluyendo bonos, acciones, opciones, fondos mutuos y forex, con tipos de operaciones avanzadas como Buy/Sell y operaciones To Open/Close. La aplicación incluye un sistema robusto de gestión de clientes con perfiles de riesgo personalizados, cuentas multitipo y asignación de asesores financieros. Implementé seguimiento de ejecuciones en tiempo real con WebSockets, monitoreo completo de estados de órdenes (pendiente, en progreso, parcial, ejecutada, rechazada) y un sistema de reporting y análisis avanzado. La arquitectura utiliza NgRx para gestión de estado, autenticación JWT con encriptación robusta, y una interfaz Material Design optimizada para traders profesionales, asesores financieros y gestores de carteras.
-                        </p>
-                        <ul class="project-tech">
-                            <li>Angular 14</li>
-                            <li>Angular Material</li>
-                            <li>NgRx</li>
-                            <li>WebSockets</li>
-                            <li>JWT</li>
-                            <li>TypeScript</li>
-                            <li>RxJS</li>
-                            <li>Material Design</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Project 5 -->
-                <div class="timeline-item">
-                    <div class="timeline-date">
-                        <span class="date-range">2023 - 2024</span>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="project-header">
-                            <h3 class="project-title">Order Journey - Plataforma de Traducción</h3>
-                            <div class="project-links">
-                                <a href="https://github.com/androetto" target="_blank" aria-label="Ver código en GitHub">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                    </svg>
-                                </a>
-                                <a href="#" target="_blank" aria-label="Ver aplicación web">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M18.364 5.636l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828zm-12.728 12.728l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828z"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <p class="project-description">
-                            Desarrollé una plataforma completa de servicios de traducción que automatiza todo el proceso desde la cotización hasta la entrega. El sistema permite a los clientes subir documentos de cualquier formato, utiliza APIs especializadas para el conteo inteligente de palabras y análisis de contenido, y ofrece una interfaz intuitiva para seleccionar idiomas de origen y destino. La plataforma calcula automáticamente cotizaciones precisas basadas en complejidad del texto, urgencia y combinaciones de idiomas. Integré una pasarela de pago robusta con PayPal para procesamiento seguro de transacciones, sistema de notificaciones por correo electrónico automatizado que mantiene informados a los clientes sobre el progreso de sus pedidos, y un dashboard administrativo completo para la gestión de proyectos. El sistema incluye tracking en tiempo real, gestión de archivos segura, sistema de revisiones y entrega automatizada, transformando completamente la experiencia del cliente en servicios de traducción profesional.
-                        </p>
-                        <ul class="project-tech">
-                            <li>Remix Run</li>
-                            <li>React</li>
-                            <li>PostgreSQL</li>
-                            <li>PayPal API</li>
-                            <li>Node.js</li>
-                            <li>TypeScript</li>
-                            <li>Prisma</li>
-                            <li>Email APIs</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Project 6 -->
-                <div class="timeline-item">
-                    <div class="timeline-date">
-                        <span class="date-range">2023 - 2024</span>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="project-header">
-                            <h3 class="project-title">Chep Skycan - Inventario con Drones</h3>
-                            <div class="project-links">
-                                <a href="https://github.com/androetto" target="_blank" aria-label="Ver código en GitHub">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                    </svg>
-                                </a>
-                                <a href="#" target="_blank" aria-label="Ver aplicación web">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M18.364 5.636l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828zm-12.728 12.728l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828z"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <p class="project-description">
-                            Participé como colaborador clave en el desarrollo de una solución revolucionaria de inventario automatizado utilizando tecnología de drones y procesamiento de imágenes con inteligencia artificial. El sistema captura imágenes aéreas de alta resolución de depósitos y almacenes, las procesa mediante algoritmos de computer vision para identificar, contar y categorizar automáticamente el stock disponible. Desarrollé la arquitectura backend robusta que maneja el procesamiento masivo de imágenes, algoritmos de reconocimiento de patrones para diferentes tipos de productos, y sistemas de almacenamiento optimizados en la nube. La plataforma incluye dashboard en tiempo real para monitoreo de inventario, generación de reportes automáticos de discrepancias, alertas de stock bajo, y integración con sistemas ERP empresariales. Esta solución transformó completamente la gestión de inventarios, reduciendo errores humanos en un 95% y acelerando los procesos de contabilidad de stock de días a minutos, proporcionando precisión y eficiencia sin precedentes en la gestión de almacenes de gran escala.
-                        </p>
-                        <ul class="project-tech">
-                            <li>Next.js</li>
-                            <li>PostgreSQL</li>
-                            <li>AWS</li>
-                            <li>Computer Vision</li>
-                            <li>AI/ML</li>
-                            <li>Image Processing</li>
-                            <li>React</li>
-                            <li>Node.js</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Project 7 -->
-                <div class="timeline-item">
-                    <div class="timeline-date">
-                        <span class="date-range">2023 - 2024</span>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="project-header">
-                            <h3 class="project-title">Watchman</h3>
-                            <div class="project-links">
-                                <a href="https://github.com/androetto" target="_blank" aria-label="Ver código en GitHub">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                    </svg>
-                                </a>
-                                <a href="#" target="_blank" aria-label="Ver aplicación web">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M18.364 5.636l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828zm-12.728 12.728l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828z"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <p class="project-description">
-                            Desarrollé una plataforma integral de seguridad comunitaria que revoluciona la vigilancia barrial mediante tecnología móvil y web. El sistema incluye una aplicación móvil desarrollada con Ionic para que los residentes reporten incidentes en tiempo real, con geolocalización precisa, fotos, videos y categorización de emergencias. Implementé una central de monitoreo web completa con dashboard en tiempo real que permite a los operadores recibir, gestionar y coordinar respuestas a incidentes reportados. La plataforma cuenta con sistema de alertas automáticas, notificaciones push masivas para avisar a la comunidad sobre situaciones de riesgo, mapas interactivos con heat maps de incidentes, y sistema de comunicación bidireccional entre residentes y personal de seguridad. El backend robusto maneja geolocalización en tiempo real, almacenamiento de multimedia, gestión de usuarios por roles, y generación de reportes estadísticos. Esta solución transformó la seguridad comunitaria, mejorando los tiempos de respuesta en un 80% y creando una red de comunicación efectiva entre vecinos y fuerzas de seguridad.
-                        </p>
-                        <ul class="project-tech">
-                            <li>Angular</li>
-                            <li>Ionic</li>
-                            <li>Node.js</li>
-                            <li>Express</li>
-                            <li>MongoDB</li>
-                            <li>Geolocation</li>
-                            <li>Real-time</li>
-                            <li>Push Notifications</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Project 8 -->
-                <div class="timeline-item">
-                    <div class="timeline-date">
-                        <span class="date-range">2023 — 2024</span>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="project-header">
-                            <h3 class="project-title">Schedule Interpreter - Migración Legacy</h3>
-                            <div class="project-links">
-                                <a href="https://github.com/androetto" target="_blank" aria-label="Ver código en GitHub">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                    </svg>
-                                </a>
-                                <a href="https://www.scheduleinterpreter.com/" target="_blank" aria-label="Ver sitio web">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M18.364 5.636l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828zm-12.728 12.728l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828z"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <p class="project-description">
-                            Lideré la migración completa de una plataforma empresarial legacy de servicios de interpretación desde Perl hacia una arquitectura moderna con JavaScript vanilla y Express.js. ScheduleInterpreter es una plataforma utilizada por empresas para gestionar servicios de interpretación remota y programación de citas. El proyecto involucró la reescritura completa del backend legacy, optimización de consultas de base de datos MySQL, y desarrollo del Flow API para integraciones empresariales. Esta migración mejoró significativamente los tiempos de respuesta, escalabilidad y mantenibilidad del sistema, transformando una aplicación legacy en una plataforma moderna y eficiente. La solución optimizada ahora maneja miles de usuarios concurrentes con mejor rendimiento y arquitectura modular.
-                        </p>
-                        <ul class="project-tech">
-                            <li>JavaScript</li>
-                            <li>Express.js</li>
-                            <li>MySQL</li>
-                            <li>Node.js</li>
-                            <li>Legacy Migration</li>
-                            <li>API Development</li>
-                            <li>Enterprise Software</li>
-                            <li>Perl to JS</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Project 9 -->
-                <div class="timeline-item">
-                    <div class="timeline-date">
-                        <span class="date-range">2025</span>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="project-header">
-                            <h3 class="project-title">Librología - Red Social de Libros</h3>
-                            <div class="project-links">
-                                <a href="https://github.com/androetto" target="_blank" aria-label="Ver código en GitHub">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                    </svg>
-                                </a>
-                                <a href="https://play.google.com/store/apps/details?id=com.librologia.app&hl=es_419" target="_blank" aria-label="Ver en Google Play">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M18.364 5.636l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828zm-12.728 12.728l3.536-3.536c.781-.781 2.047-.781 2.828 0 .781.781.781 2.047 0 2.828l-3.536 3.536c-.781.781-2.047.781-2.828 0-.781-.781-.781-2.047 0-2.828z"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <p class="project-description">
-                            Desarrollé una red social completa para amantes de los libros que revoluciona la manera en que los lectores interactúan y comparten literatura. La aplicación móvil, disponible en Google Play Store con más de 5K descargas, permite a los usuarios encontrar, intercambiar, comprar, vender y regalar libros físicos dentro de una comunidad apasionada por la lectura. Implementé un sistema de chat en tiempo real con Socket.io para facilitar la comunicación entre usuarios, sistema de reseñas y puntuación de libros, y una base de datos colaborativa donde los usuarios pueden subir portadas y información de libros. La plataforma incluye filtros democráticos de relevancia y calidad, recomendaciones personalizadas basadas en géneros y lecturas previas, y funcionalidades para seguir las actividades de lectura de otros usuarios. La arquitectura serverless garantiza escalabilidad y rendimiento óptimo, mientras que el enfoque ecológico promueve la reutilización de libros usados, evitando reimpresiones innecesarias. Esta aplicación 100% gratuita se ha convertido en la plataforma digital de intercambio de libros que faltaba en el mundo de los lectores hispanohablantes.
-                        </p>
-                        <ul class="project-tech">
-                            <li>Angular</li>
-                            <li>React Native</li>
-                            <li>Expo</li>
-                            <li>Serverless</li>
-                            <li>MongoDB</li>
-                            <li>Socket.io</li>
-                            <li>Real-time Chat</li>
-                            <li>Google Play</li>
-                        </ul>
-                    </div>
-                </div>                
             </div>
-        </main>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-container" id="skills-container">
+                    <!-- Content will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos Destacados -->
+        <section id="projects" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Content will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
     </div>
 
+    <!-- Menú Flotante -->
+    <div class="floating-menu" id="floating-menu">
+        <!-- Content will be loaded dynamically -->
+    </div>
+
+    <script src="data.js"></script>
     <script src="script.js"></script>
 </body>
 </html> 
